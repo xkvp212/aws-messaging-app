@@ -1,0 +1,91 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
+}
+.right {
+  margin: 20px;
+}
+.left {
+  margin: 20px;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 300px;
+  height: 100px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 rgb(243, 243, 243);
+  border-color: -moz-use-text-color #ffffff #ffffff -moz-use-text-color;
+  border-image: none;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+  color: #555555;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+}
+
+textarea:focus {
+  background: none repeat scroll 0 0 #ffffff;
+  outline-width: 0;
+}
+
+input {
+  font-family: "Varela Round", sans-serif;
+  width: 150px;
+  height: 30px;
+  border-radius: 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  font-size: 14px;
+}
+.button_slide {
+  color: #7d0000;
+  background-color: #fff;
+  border: 2px solid #7d0000;
+  border-radius: 15px;
+  padding: 5px 10px;
+  display: inline-block;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #7d0000;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #7d0000;
+  color: white;
+}

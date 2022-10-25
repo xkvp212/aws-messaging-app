@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/bec6afe671.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <script src="formToApi.js"></script>
+    <title>sms-email app</title>
+  </head>
+  <body>
+    <div class="container">
+      <i class="fa-solid fa-user-ninja fa-6x"></i>
+      <h1>
+        Serverless Sending App
+      </h1>
+
+      <p>
+        Crowy will deliver your message<i class="fa-solid fa-crow fa-3x fa-flip-horizontal"></i>
+      </p>
+      <p><i class="fa-solid fa-cat fa-3x"></i> While Neko guides the way</p>
+      <textarea
+        type="text"
+        name="message"
+        placeholder="Your message"
+      ></textarea>
+      <div class="form1">
+        <div class="left">
+            <input type="email" name="email" placeholder="Email" />
+            <button onClick= "formToApi(event,'email')" class="button_slide slide_right">send email</d>
+            </button>
+        </div>
+        <div class="right">
+            <input type="number" name="sms" placeholder="Phone Number" />
+            <button onClick= "formToApi(event,'sms')" class="button_slide slide_right">send SMS</d>
+            </button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
