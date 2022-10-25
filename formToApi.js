@@ -20,7 +20,3 @@ function formToApi(event, typeOfSending) {
     }
   );
 }
-
-
-
-ssh -i "/Users/kevin/AccessKeysAWS/ec2forES.pem" ec2-user@ec2-54-252-71-104.ap-southeast-2.compute.amazonaws.com -ND 8157
