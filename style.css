@@ -6,16 +6,17 @@ body {
 .container {
   width: 100%;
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  align-content: center;
 }
 h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+}
+p {
+  text-align: center;
 }
 .form1 {
   display: flex;
@@ -88,4 +89,21 @@ input {
 .slide_right:hover {
   box-shadow: inset 400px 0 0 0 #7d0000;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 660px;
+  }
+
+  .form1 {
+    flex-direction: column;
+    align-content: center;
+  }
+  .right {
+    margin: 0;
+  }
+  .left {
+    margin: 0;
+  }
 }
