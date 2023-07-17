@@ -3,7 +3,7 @@
 
 This app allows you to send an email or a SMS from a website using AWS services
 
-##AWS Architecture used
+## AWS Architecture used
 
 
 Things I learned while developing this projects:
