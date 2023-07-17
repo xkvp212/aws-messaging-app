@@ -1,4 +1,4 @@
-### AWS email/SMS app
+# AWS email/SMS app
 
 
 This app allows you to send an email or a SMS from a website using AWS services
