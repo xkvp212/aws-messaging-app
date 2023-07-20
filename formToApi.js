@@ -1,3 +1,11 @@
+function buttonEmailAfter() {
+  document.getElementById("emailsent").innerHTML = "email sent!";
+}
+
+function buttonSmsAfter() {
+  document.getElementById("smssent").innerHTML = "sms sent!";
+}
+
 function formToApi(event, typeOfSending) {
   event.preventDefault();
 
@@ -9,7 +17,7 @@ function formToApi(event, typeOfSending) {
   };
 
   fetch(
-    "https://q2cu8fu8f0.execute-api.ap-southeast-2.amazonaws.com/sendingStage/sending",
+    "https://4o21z6a0od.execute-api.ap-southeast-2.amazonaws.com/sendingStage/sending",
     {
       method: "POST",
       headers: {
